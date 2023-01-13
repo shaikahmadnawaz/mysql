@@ -46,7 +46,7 @@ A table in RDBMS consists of rows and columns.
 
 ```
 CREATE TABLE employees (
-	employee_id INT,
+    employee_id INT,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     hourly_pay DECIMAL(5, 2),
@@ -98,7 +98,6 @@ MODIFY COLUMN employee_id VARCHAR(5);
 ```
 ALTER TABLE employees
 MODIFY COLUMN employee_id VARCHAR(10);
-
 ```
 
 **We can also change the position of the columns:**
